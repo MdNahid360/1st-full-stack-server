@@ -16,7 +16,7 @@ app.use(bodyParser.json())
 console.log(process.env.DB_USER);
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('Hello i am nahid')
 })
 
 // connecting database......
